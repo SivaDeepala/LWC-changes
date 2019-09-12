@@ -1,7 +1,11 @@
 {
     "compilerOptions": {
         "baseUrl": ".",
-        "paths": {},
+        "paths": {
+            "c/customSearch": [
+                "customSearch/customSearch.js"
+            ]
+        },
         "experimentalDecorators": true
     },
     "include": [
